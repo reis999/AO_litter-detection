@@ -26,7 +26,7 @@ if __name__ == "__main__":
                 epochs=args.epochs,
                 patience=25,
                 imgsz=640,
-                device=0,
+                device='0',
                 name=f"{args.model_name}_{args.epochs}epochs",
                 pretrained=True,
                 optimizer='SGD',

@@ -1,7 +1,7 @@
 path: path/to/formatted/TACO/data
-train: train
-val: val
-test: test
+train: images/train
+val: images/val
+test: images/test
 
 #Classes
 #nc: 60
