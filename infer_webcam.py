@@ -33,7 +33,7 @@ if not cap.isOpened():
     exit()
 
 # Configurações de exibição
-window_name = "YOLOv8 - Detecção de Lixo e Reciclagem"
+window_name = "YOLOv8 - Detecao de Lixo e Reciclagem"
 cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
 cv2.resizeWindow(window_name, 1280, 720)
 
